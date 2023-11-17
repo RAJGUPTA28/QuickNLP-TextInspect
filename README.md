@@ -56,39 +56,17 @@ Follow the instructions in the task-specific README file for usage details.
 Folder Structure
 The repository follows the following structure:
 
-lua
-Copy code
-nlp-tasks/
-|-- text_classification/
-|   |-- README.md
-|   |-- src/
-|   |-- data/
-|-- sentiment_analysis/
-|   |-- README.md
-|   |-- src/
-|   |-- data/
-|-- named_entity_recognition/
-|   |-- README.md
-|   |-- src/
-|   |-- data/
-|-- custom_task/
-|   |-- README.md
-|   |-- src/
-|   |-- data/
-|-- requirements.txt
-|-- config.py
-|-- LICENSE
-|-- CONTRIBUTING.md
-|-- .gitignore
-Task Details
-Task 1: Text Classification
-Detailed information and instructions are available in the text_classification directory.
-Task 2: Sentiment Analysis
-Detailed information and instructions are available in the sentiment_analysis directory.
-Task 3: Named Entity Recognition
-Detailed information and instructions are available in the named_entity_recognition directory.
-Task 4: Custom Task
-Use the template provided in the custom_task directory to create your own NLP task.
+
+#Task Details
+- Task 1: Text Classification
+      Detailed information and instructions are available in the text_classification directory.
+- Task 2: Sentiment Analysis
+      Detailed information and instructions are available in the sentiment_analysis directory.
+- Task 3: Named Entity Recognition
+      Detailed information and instructions are available in the named_entity_recognition directory.
+- Task 4: Custom Task
+      Use the template provided in the custom_task directory to create your own NLP task.
+
 Configuration
 Modify the config.py file to customize global settings and parameters for the NLP tasks.
 
