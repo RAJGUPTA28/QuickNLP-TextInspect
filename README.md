@@ -2,14 +2,15 @@
 NLP Tasks Repository
 This repository is a comprehensive collection of Natural Language Processing (NLP) tasks implemented in Python. It provides a modular and organized structure for various NLP applications. Whether you are working on text classification, sentiment analysis, named entity recognition, or any other NLP task, this repository aims to serve as a versatile toolkit.
 
-Table of Contents
-Introduction
-Tasks Included
-Getting Started
-Prerequisites
-Installation
-Usage
-Folder Structure
+# Table of Contents
+- Introduction
+- Tasks Included
+- Getting Started
+- Prerequisites
+- Installation
+- Usage
+
+# Folder Structure
 Task Details
 Task 1: Text Classification
 Task 2: Sentiment Analysis
@@ -20,10 +21,10 @@ Contributing
 License
 Acknowledgments
 
-Introduction
+# Introduction
 NLP Tasks Repository is a collection of various NLP tasks implemented in Python. It is designed to be flexible, modular, and easy to extend. Each task is organized in its own directory, containing necessary code, data, and documentation.
 
-Tasks Included
+# Tasks Included
 Text Classification: Classify text into predefined categories.
 Sentiment Analysis: Determine the sentiment (positive, negative, neutral) of a given text.
 Named Entity Recognition: Identify and classify named entities in text.
@@ -33,8 +34,10 @@ Prerequisites
 Python 3.x
 Additional dependencies listed in requirements.txt
 Installation
-Clone the repository:
 
+# Clone the repository:
+
+''' 
 bash
 Copy code
 git clone https://github.com/your-username/nlp-tasks.git
@@ -51,13 +54,14 @@ pip install -r requirements.txt
 Usage
 Navigate to the specific task directory (e.g., text_classification).
 
+'''  
 Follow the instructions in the task-specific README file for usage details.
 
 Folder Structure
 The repository follows the following structure:
 
 
-#Task Details
+# Task Details
 - Task 1: Text Classification
       Detailed information and instructions are available in the text_classification directory.
 - Task 2: Sentiment Analysis
@@ -67,14 +71,14 @@ The repository follows the following structure:
 - Task 4: Custom Task
       Use the template provided in the custom_task directory to create your own NLP task.
 
-Configuration
-Modify the config.py file to customize global settings and parameters for the NLP tasks.
+# Configuration
+   Modify the config.py file to customize global settings and parameters for the NLP tasks.
 
-Contributing
-If you'd like to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
+# Contributing
+   If you'd like to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# License
+   This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Special thanks to OpenAI for providing the GPT-3.5 model that powers this project.
+# Acknowledgments
+   Special thanks to OpenAI for providing the GPT-3.5 model that powers this project.
