@@ -1,4 +1,5 @@
-#Techniques Used
+# Techniques Used
+------
 
 - Bag of words Represensation
 - TF -IDF Representation
