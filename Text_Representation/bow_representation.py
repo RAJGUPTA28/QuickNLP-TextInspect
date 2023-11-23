@@ -31,3 +31,8 @@ def preprocess(document):
 
 documents = [preprocess(document) for document in documents]
 print(documents)
+
+
+vectorizer = CountVectorizer()
+bow_model = vectorizer.fit_transform(documents)
+print(bow_model)  # returns the rows and column number of cells which have 1 as value
