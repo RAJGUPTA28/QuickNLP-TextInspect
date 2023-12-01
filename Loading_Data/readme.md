@@ -3,4 +3,4 @@
 - Load Data File With NumPy
 - Load Data File With Pandas
 
--loading data from SQL
+- loading data from SQL
