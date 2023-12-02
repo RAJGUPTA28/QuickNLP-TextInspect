@@ -3,6 +3,8 @@ NLP Tasks Repository
 This repository is a comprehensive collection of Natural Language Processing (NLP) tasks implemented in Python. It provides a modular and organized structure for various NLP applications. Whether you are working on text classification, sentiment analysis, named entity recognition, or any other NLP task, this repository aims to serve as a versatile toolkit.
 
 ![Sample Image](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/IMG.png)
+
+![Sample Image](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/nlp-pipeline.png)
 # Table of Contents
 - Introduction
 - Tasks Included
