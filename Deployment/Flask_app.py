@@ -13,3 +13,7 @@ def predict():
     prediction = model.predict([[np.array(data['exp'])]])
     output = prediction[0]
     return jsonify(output)
+
+
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)
