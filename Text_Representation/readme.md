@@ -20,3 +20,6 @@
   - Crating bag of words model using count vectorizer
   - Apply fit and transform on list of processed texts obtained on step 5
   - Convert the bag of words matrix to pandas dataframe by assigning all the vocabs as the column of the dataframe
+
+
+# WORD2VEC
