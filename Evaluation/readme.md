@@ -15,3 +15,7 @@ Accuracy is the most common metric to be used in everyday talk. Accuracy answers
 
 Precision 
 Precision is a metric that gives you the proportion of true positives to the amount of total positives that the model predicts. It answers the question “Out of all the positive predictions we made, how many were true?”
+
+
+Recall 
+Recall  focuses on how good the model is at finding all the positives. Recall is also called true positive rate and answers the question “Out of all the data points that should be predicted as true, how many did we correctly predict as true?”
