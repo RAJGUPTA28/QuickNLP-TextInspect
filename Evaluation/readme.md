@@ -7,4 +7,4 @@
 - Log Loss
 
 
-![iMG]()
+![iMG](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Evaluation/score.png)
