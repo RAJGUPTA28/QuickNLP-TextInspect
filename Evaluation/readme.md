@@ -27,4 +27,4 @@ Recall  focuses on how good the model is at finding all the positives. Recall is
   ---
 F1 Score is a measure that combines recall and precision. As we have seen there is a trade-off between precision and recall, F1 can therefore be used to measure how effectively our models make that trade-off.
 
-![img]()
+![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Evaluation/accuracy.png)
