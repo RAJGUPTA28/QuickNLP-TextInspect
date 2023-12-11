@@ -15,8 +15,11 @@ Web scraping is an automatic method to obtain large amounts of data from website
 - Urllib3.
 - MechanicalSoup.
 
+# Beautiful Soup
+
 ``` 
 python -m pip install beautifulsoup4
 ```
+
 
 ``` from bs4 import BeautifulSoup ```
