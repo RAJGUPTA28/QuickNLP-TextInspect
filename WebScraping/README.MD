@@ -4,7 +4,8 @@ Web scraping is an automatic method to obtain large amounts of data from website
 
 ![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/WebScraping/download.png)
 
-``` $ python -m pip install beautifulsoup4
+``` 
+python -m pip install beautifulsoup4
 ```
 
 from bs4 import BeautifulSoup
