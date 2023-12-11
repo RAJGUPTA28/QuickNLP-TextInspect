@@ -4,6 +4,17 @@ Web scraping is an automatic method to obtain large amounts of data from website
 
 ![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/WebScraping/download.png)
 
+# Web Scraping Libraries & Tools
+---
+- Beautiful Soup.
+- Requests.
+- Scrapy.
+- Selenium.
+- Playwright.
+- Lxml.
+- Urllib3.
+- MechanicalSoup.
+
 ``` 
 python -m pip install beautifulsoup4
 ```
