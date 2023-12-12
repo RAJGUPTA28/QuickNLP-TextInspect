@@ -5,5 +5,5 @@
 
 - loading data from SQL
 
-![Img]()
+![Img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Loading_Data/etl-process-explained-diagram.png)
 ![Img]()
