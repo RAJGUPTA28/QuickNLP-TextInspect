@@ -23,3 +23,5 @@
 
 
 # WORD2VEC
+
+#TF IDF
