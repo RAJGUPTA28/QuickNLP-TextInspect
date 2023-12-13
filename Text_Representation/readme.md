@@ -24,4 +24,7 @@
 
 # WORD2VEC
 
-#TF IDF
+# TF IDF
+TF-IDF stands for Term Frequency Inverse Document Frequency of records. It can be defined as the calculation of how relevant a word in a series or corpus is to a text. The meaning increases proportionally to the number of times in the text a word appears but is compensated by the word frequency in the corpus (data-set).
+
+
