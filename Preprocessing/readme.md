@@ -1,4 +1,4 @@
-![img]()
+![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Preprocessing/Data-Preprocessing.png)
 # All Cleaning Techniques 
 - Text Spelling Correction (todo)
 
