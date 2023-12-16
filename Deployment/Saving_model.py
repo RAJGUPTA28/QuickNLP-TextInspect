@@ -24,3 +24,5 @@ knn.fit(X_train, y_train)
 
 import pickle 
 saved_model = pickle.dumps(knn) 
+
+knn_from_pickle = pickle.loads(saved_model) 
