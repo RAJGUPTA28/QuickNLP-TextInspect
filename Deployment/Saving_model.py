@@ -21,9 +21,21 @@ knn.fit(X_train, y_train)
 
 
 
-
+#pickle
 import pickle 
 saved_model = pickle.dumps(knn) 
 
 knn_from_pickle = pickle.loads(saved_model) 
 knn_from_pickle.predict(X_test) 
+
+
+# use joblib
+
+from joblib import Parallel, delayed 
+import joblib 
+
+joblib.dump(knn, 'filename.pkl') 
+
+knn_from_joblib = joblib.load('filename.pkl') 
+
+knn_from_joblib.predict(X_test) 
