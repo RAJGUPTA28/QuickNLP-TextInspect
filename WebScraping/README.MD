@@ -23,3 +23,13 @@ python -m pip install beautifulsoup4
 Beautiful Soup is a Python package for parsing HTML and XML documents (including having malformed markup, i.e. non-closed tags, so named after tag soup). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping
 
 ``` from bs4 import BeautifulSoup ```
+
+
+# Steps
+Identify the target website
+Collect URLs of the target pages
+Make a request to these URLs to get the HTML of the page
+
+Use locators to find the information in the HTML
+
+Save the data in a JSON or CSV file or some other structured format
