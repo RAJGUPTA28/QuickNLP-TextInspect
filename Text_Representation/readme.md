@@ -1,3 +1,11 @@
+
+# Applications of Word Embedding :
+
+>> Sentiment Analysis
+>> Speech Recognition
+>> Information Retrieval
+>> Question Answering
+
 # Techniques Used
 ------
 
