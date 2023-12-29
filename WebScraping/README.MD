@@ -26,10 +26,8 @@ Beautiful Soup is a Python package for parsing HTML and XML documents (including
 
 
 # Steps
-Identify the target website
-Collect URLs of the target pages
-Make a request to these URLs to get the HTML of the page
-
-Use locators to find the information in the HTML
-
-Save the data in a JSON or CSV file or some other structured format
+1) Identify the target website
+2) Collect URLs of the target pages
+3) Make a request to these URLs to get the HTML of the page
+4) Use locators to find the information in the HTML
+5) Save the data in a JSON or CSV file or some other structured format
