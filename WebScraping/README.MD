@@ -16,7 +16,7 @@ Web scraping is an automatic method to obtain large amounts of data from website
 - MechanicalSoup.
 
 # Beautiful Soup
-(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+**(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)**
 
 ``` 
 python -m pip install beautifulsoup4
