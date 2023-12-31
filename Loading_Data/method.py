@@ -26,8 +26,7 @@ names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = pandas.read_csv(url, names=names)
 print(data.shape)
 
-
-
+#load Data from SQL
 import sqlite3
 import pandas as pd
 
@@ -39,5 +38,3 @@ sql_query = pd.read_sql_query ('''
                                FROM products
                                ''', conn)
 
-df = pd.DataFrame(sql_query, columns = ['product_id', 'product_name', 'price'])
-print (df)
