@@ -20,8 +20,24 @@ print(dataset.shape)
 
 
 # Load CSV using Pandas from URL
-2 Import pandas
-3 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-4 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
-5 data = pandas.read_csv(url, names=names)
-6 print(data.shape)
+Import pandas
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = pandas.read_csv(url, names=names)
+print(data.shape)
+
+
+
+import sqlite3
+import pandas as pd
+
+conn = sqlite3.connect('test_database') 
+          
+sql_query = pd.read_sql_query ('''
+                               SELECT
+                               *
+                               FROM products
+                               ''', conn)
+
+df = pd.DataFrame(sql_query, columns = ['product_id', 'product_name', 'price'])
+print (df)
