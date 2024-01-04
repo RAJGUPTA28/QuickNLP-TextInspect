@@ -30,5 +30,20 @@ print('Recall:', recall_score(y_test,
 
 # F1 SCORE
 print('F1 score:', f1_score(y_test, y_pred, 
-							average="weighted")) 
+        			average="weighted")) 
+
+
+# CONFUSION MATRIX
+confusion_matrix = metrics.confusion_matrix(y_test, 
+					y_pred) 
+
+cm_display = metrics.ConfusionMatrixDisplay( 
+	confusion_matrix=confusion_matrix, 
+	display_labels=[0, 1, 2]) 
+
+cm_display.plot() 
+plt.show() 
+
+
+
 
