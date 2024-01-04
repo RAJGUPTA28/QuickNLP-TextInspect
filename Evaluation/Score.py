@@ -45,5 +45,7 @@ cm_display.plot()
 plt.show() 
 
 
+# ROC AUC
+from sklearn .metrics import roc_auc_score 
 
 
