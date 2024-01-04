@@ -19,11 +19,16 @@ print("Mean Accuracy:", mean_accuracy)
 from sklearn.metrics import precision_score,\ 
 recall_score, f1_score, accuracy_score
 
-
+# PRECISION
 print("Precision:", precision_score(y_test, 
                                     y_pred, 
                                     average="weighted")) 
-  
+# RECALL 
 print('Recall:', recall_score(y_test, 
                               y_pred, 
                               average="weighted")) 
+
+# F1 SCORE
+print('F1 score:', f1_score(y_test, y_pred, 
+							average="weighted")) 
+
