@@ -23,14 +23,12 @@ print('F1 score:', f1_score(y_test, y_pred,
         			average="weighted")) 
 
 
+# CROSS VALIDATION SCORE
 from sklearn.model_selection import cross_val_score
-# Perform cross-validation
+
 scores = cross_val_score(model, X, y, cv=5)
-# Calculate the average performance across all folds
 mean_accuracy = scores.mean()
 print("Mean Accuracy:", mean_accuracy)
-
-
 
 
 
