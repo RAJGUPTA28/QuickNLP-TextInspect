@@ -47,8 +47,29 @@ from sklearn .metrics import roc_auc_score
 auc = np.round(roc_auc_score(y_true, 
                              y_pred), 3) 
 
-
+------------------------------------------------------------------------------
 
 from sklearn.metrics import mean_absolute_error,\ 
     mean_squared_error, mean_absolute_percentage_error 
 
+# MEAN ABSOLUTE ERROR
+mae = mean_absolute_error(y_true=Y_test, 
+                          y_pred=Y_pred) 
+
+
+#MEAN SQUARE ERROR
+mse = mean_squared_error(y_true=Y_test, 
+                         y_pred=Y_pred) 
+
+
+# ROOT MEAN SQUARE ERROR
+Rmse = mean_squared_error(y_true=Y_test, 
+                          y_pred=Y_pred, 
+                          squared=False) 
+
+
+# ROOT MEAN ABSOLUTE PERCENTAGE ERROR
+mape = mean_absolute_percentage_error(Y_test, 
+                                      Y_pred, 
+                                      sample_weight=None, 
+                                      multioutput='uniform_average')
