@@ -5,6 +5,7 @@ recall_score, f1_score, accuracy_score
 
 y_pred = model.predict(X_test)
 
+# ACCURACY
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
@@ -16,7 +17,6 @@ print("Precision:", precision_score(y_test,
 print('Recall:', recall_score(y_test, 
                               y_pred, 
                               average="weighted")) 
-
 
 # F1 SCORE
 print('F1 score:', f1_score(y_test, y_pred, 
@@ -31,12 +31,9 @@ mean_accuracy = scores.mean()
 print("Mean Accuracy:", mean_accuracy)
 
 
-
-
 # CONFUSION MATRIX
 confusion_matrix = metrics.confusion_matrix(y_test, 
 					y_pred) 
-
 cm_display = metrics.ConfusionMatrixDisplay( 
 	confusion_matrix=confusion_matrix, 
 	display_labels=[0, 1, 2]) 
