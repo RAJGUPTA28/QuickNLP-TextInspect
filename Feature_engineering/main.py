@@ -25,3 +25,7 @@ def count_punctuations(text):
     for i in punctuations:
         d[str(i)+' count']=text.count(i)
     return d 
+
+# 6.Number of Sentences
+def count_sent(text):
+    return len(nltk.sent_tokenize(text))
