@@ -1,5 +1,5 @@
-
-
+# Classification
+-------------------------------------
 from sklearn.metrics import  accuracy_score, precision_score,\ 
 recall_score, f1_score, accuracy_score
 
@@ -47,6 +47,9 @@ from sklearn .metrics import roc_auc_score
 auc = np.round(roc_auc_score(y_true, 
                              y_pred), 3) 
 
+
+
+# Regression
 ------------------------------------------------------------------------------
 
 from sklearn.metrics import mean_absolute_error,\ 
