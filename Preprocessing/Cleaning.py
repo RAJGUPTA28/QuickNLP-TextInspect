@@ -55,6 +55,13 @@ def lemmatize_words(text):
 
 
 
+def clean(data,word):
+    #Cleaning
+    data[word] = data[word].apply(lambda x: ''.join([w for w in clean_text(x) if w not in unrelevant_words]))
+    #Removing stopwords 
+    data[word] = data[word].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_words)]))
+    #Lemmatization
+    data[word] = data[word].apply(lemmatize_words)
 
 
 
