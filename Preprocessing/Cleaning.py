@@ -1,7 +1,3 @@
-#import required packages
-#basics
-import pandas as pd 
-import numpy as np
 
 import nltk
 nltk.download('averaged_perceptron_tagger')
