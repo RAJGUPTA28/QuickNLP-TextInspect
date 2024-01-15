@@ -48,20 +48,6 @@ def clean_text(text):
     text=' '.join(text.split())
     return text
 
-def lemmatize_words(text):
-    words = text.split()
-    words = [lemmatizer.lemmatize(word,pos='v') for word in words]
-    return ' '.join(words)
-
-
-
-def clean(data,word):
-    #Cleaning
-    data[word] = data[word].apply(lambda x: ''.join([w for w in clean_text(x) if w not in unrelevant_words]))
-    #Removing stopwords 
-    data[word] = data[word].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_words)]))
-    #Lemmatization
-    data[word] = data[word].apply(lemmatize_words)
 
 
 
