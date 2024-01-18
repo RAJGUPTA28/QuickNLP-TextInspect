@@ -43,4 +43,4 @@ TF-IDF stands for Term Frequency Inverse Document Frequency of records. It can b
 
 
  # SENTENCE TRANSFORMERS
- 
+ ![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Text_Representation/img/SENT_MODEL.png)
