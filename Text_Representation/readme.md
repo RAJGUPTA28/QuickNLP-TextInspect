@@ -40,3 +40,7 @@ TF-IDF stands for Term Frequency Inverse Document Frequency of records. It can b
 - **Inverse Document Frequency**: Mainly, it tests how relevant the word is. The key aim of the search is to locate the appropriate records that fit the demand. Since tf considers all terms equally significant, it is therefore not only possible to use the term frequencies to measure the weight of the term in the paper.
 
  ![IMG](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Text_Representation/img/tfidf.webp)
+
+
+ # SENTENCE TRANSFORMERS
+ 
