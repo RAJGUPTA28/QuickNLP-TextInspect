@@ -14,9 +14,6 @@ def count_capital_chars(text):
             count+=1
     return count
 
-# 4.Capital Words
-def count_capital_words(text):
-    return sum(map(str.isupper,text.split()))
 
 # 5.Count Numberr of Puncuation
 def count_punctuations(text):
