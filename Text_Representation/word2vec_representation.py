@@ -25,4 +25,14 @@ for i in sent_tokenize(f):
 
 model1 = gensim.models.Word2Vec(data, min_count = 1, 
                               vector_size = 100, window = 5)
- 
+
+
+
+
+# Other Method
+
+import gensim
+w2v_model = gensim.models.Word2Vec(min_count=1, window=2, size=300, sample=6e-5, alpha=0.03, min_alpha=0.0007, negative=20)
+w2v_model.build_vocab(input_data)
+w2v_model.train(input_data, total_examples=w2v_model.corpus_count, epochs=50)
+w2v_model.wv.most_similar(positive=["Robert"])
