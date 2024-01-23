@@ -36,3 +36,6 @@ w2v_model = gensim.models.Word2Vec(min_count=1, window=2, size=300, sample=6e-5,
 w2v_model.build_vocab(input_data)
 w2v_model.train(input_data, total_examples=w2v_model.corpus_count, epochs=50)
 w2v_model.wv.most_similar(positive=["Robert"])
+
+# Non Matching Words
+w2v_model.wv.doesnt_match(['Arya', 'Sansa', 'Aerys'])
