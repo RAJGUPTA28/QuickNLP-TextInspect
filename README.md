@@ -74,7 +74,7 @@ The repository follows the following structure:
 - Task 4: Custom Task
       Use the template provided in the custom_task directory to create your own NLP task.
 
-#
+#Configuration
 
 # Contributing
    If you'd like to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
