@@ -49,3 +49,9 @@ TF-IDF stands for Term Frequency Inverse Document Frequency of records. It can b
   - **All Models**
  ![img](https://github.com/RAJGUPTA28/QuickNLP-TextInspect/blob/main/Text_Representation/img/SENT_MODEL.png)
 
+
+# N-Gram Representation
+
+N-grams are continuous sequences of words or symbols, or tokens in a document. In technical terms, they can be defined as the neighboring sequences of items in a document. They come into play when we deal with text data in NLP (Natural Language Processing) tasks. They have a wide range of applications, like language models, semantic features, spelling correction, machine translation, text mining, etc.
+
+ -  Bi-Gram
