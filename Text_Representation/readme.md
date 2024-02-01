@@ -54,4 +54,9 @@ TF-IDF stands for Term Frequency Inverse Document Frequency of records. It can b
 
 N-grams are continuous sequences of words or symbols, or tokens in a document. In technical terms, they can be defined as the neighboring sequences of items in a document. They come into play when we deal with text data in NLP (Natural Language Processing) tasks. They have a wide range of applications, like language models, semantic features, spelling correction, machine translation, text mining, etc.
 
- -  Bi-Gram
+- n	Term
+- 1	Unigram
+- 2	Bigram
+- 3	Trigram
+- n	n-gram
+
