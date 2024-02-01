@@ -60,3 +60,10 @@ N-grams are continuous sequences of words or symbols, or tokens in a document. I
 - 3	Trigram
 - n	n-gram
 
+
+“I reside in Bengaluru”.
+
+SL.No.|	Type of n-gram	 |   Generated n-grams
+1	| Unigram |	[“I”,”reside”,”in”,”Bengaluru”]
+2	| Bigram	| [“I reside”,”reside in”,”in Bengaluru”]
+3	| Trigram	| [“I reside in”, “reside in Bengaluru”]
