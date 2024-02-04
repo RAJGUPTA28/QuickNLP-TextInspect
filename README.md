@@ -82,5 +82,3 @@ The repository follows the following structure:
 # License
    This project is licensed under the MIT License - see the LICENSE file for details.
 
-# Acknowledgments
-   Special thanks to OpenAI for providing the GPT-3.5 model that powers this project.
