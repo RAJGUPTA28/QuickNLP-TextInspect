@@ -42,10 +42,6 @@ cm_display.plot()
 plt.show() 
 
 
-# ROC AUC
-from sklearn .metrics import roc_auc_score 
-auc = np.round(roc_auc_score(y_true, 
-                             y_pred), 3) 
 
 
 
