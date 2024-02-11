@@ -34,7 +34,7 @@ Beautiful Soup is a Python package for parsing HTML and XML documents (including
 5) Save the data in a JSON or CSV file or some other structured format
 
 
-Libraries
+# Libraries
 Selenium:  Selenium is a web testing library. It is used to automate browser activities.
 BeautifulSoup: Beautiful Soup is a Python package for parsing HTML and XML documents. It creates parse trees that is helpful to extract the data easily.
 Pandas: Pandas is a library used for data manipulation and analysis. It is used to extract the data and store it in the desired format. 
