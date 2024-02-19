@@ -1,4 +1,11 @@
+# Classification
+-------------------------------------
+from sklearn.metrics import  accuracy_score, precision_score,\ 
+recall_score, f1_score, accuracy_score
 
+y_pred = model.predict(X_test)
+
+# ACCURACY
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
