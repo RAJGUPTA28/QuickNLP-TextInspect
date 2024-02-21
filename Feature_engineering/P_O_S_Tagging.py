@@ -15,8 +15,8 @@ ADP	adposition
 ADV	adverb	
 CONJ	conjunction	
 DET	determiner, 
-NOUN	noun	year, home, costs, time, Africa
-NUM	numeral	twenty-four, fourth, 1991, 14:24
+NOUN	noun	
+NUM	numeral	
 PRT	particle	
 PRON	
 VERB	verb	
