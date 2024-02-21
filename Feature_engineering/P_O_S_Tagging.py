@@ -17,8 +17,6 @@ CONJ	conjunction
 DET	determiner, 
 NOUN	noun	year, home, costs, time, Africa
 NUM	numeral	twenty-four, fourth, 1991, 14:24
-PRT	particle	at, on, out, over per, that, up, with
-PRON	pronoun	he, their, her, its, my, I, us
-VERB	verb	is, say, told, given, playing, would
-.	punctuation marks	. , ; !
-X	other
+PRT	particle	
+PRON	
+VERB	verb	
